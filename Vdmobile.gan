@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Reconstruction VDMobile" company="Sofia" webLink="http://" view-date="2023-07-10" view-index="0" gantt-divider-location="501" resource-divider-location="300" version="3.2.3200" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Reconstruction VDMobile" company="Sofia" webLink="http://" view-date="2023-02-01" view-index="0" gantt-divider-location="519" resource-divider-location="300" version="3.2.3247" locale="fr_FR">
     <description/>
-    <view zooming-state="default:5" id="gantt-chart">
-        <field id="tpd3" name="Nom" width="273" order="0"/>
-        <field id="tpd4" name="Date de début" width="84" order="1"/>
-        <field id="tpd5" name="Date de fin" width="143" order="2"/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="166" order="0"/>
+        <field id="tpd4" name="Date de début" width="142" order="1"/>
+        <field id="tpd5" name="Date de fin" width="210" order="2"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="color.recent">
             <![CDATA[#99ff99 #ff0000]]>
@@ -73,12 +73,12 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Preparation" color="#8cb6ce" meeting="false" start="2023-02-01" duration="15" complete="0" thirdDate="2023-01-31" thirdDate-constraint="0" expand="false">
+        <task id="0" name="Preparation" color="#8cb6ce" meeting="false" start="2023-02-01" duration="15" complete="0" thirdDate="2023-01-31" thirdDate-constraint="0" expand="true">
             <task id="1" name="Adaptation aux codes" color="#8cb6ce" meeting="false" start="2023-02-01" duration="5" complete="0" thirdDate="2023-01-31" thirdDate-constraint="0" expand="true"/>
             <task id="2" name="Conception de base de données" color="#8cb6ce" meeting="false" start="2023-02-08" duration="5" complete="0" thirdDate="2023-02-01" thirdDate-constraint="0" expand="true"/>
             <task id="3" name="Restructuration de la base de données" color="#8cb6ce" meeting="false" start="2023-02-15" duration="5" complete="0" thirdDate="2023-02-01" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="4" name="Sprint 1 : Fiche Client et Localisation" color="#8cb6ce" meeting="false" start="2023-02-22" duration="23" complete="0" thirdDate="2023-02-01" thirdDate-constraint="0" expand="false">
+        <task id="4" name="Sprint 1 : Fiche Client et Localisation" color="#8cb6ce" meeting="false" start="2023-02-22" duration="23" complete="0" thirdDate="2023-02-01" thirdDate-constraint="0" expand="true">
             <task id="5" name="Saisie fiche Client (Mobile et Back Office)" color="#8cb6ce" meeting="false" start="2023-02-22" duration="6" complete="0" thirdDate="2023-02-01" thirdDate-constraint="0" expand="true"/>
             <task id="8" name="Mise à jour fiche client" color="#8cb6ce" meeting="false" start="2023-03-02" duration="2" complete="0" thirdDate="2023-02-22" thirdDate-constraint="0" expand="true"/>
             <task id="9" name="Gestion des coordonnées GPS" color="#8cb6ce" meeting="false" start="2023-03-06" duration="2" complete="0" thirdDate="2023-02-22" thirdDate-constraint="0" expand="true"/>
@@ -89,7 +89,7 @@
             <task id="14" name="Test en ligne" color="#8cb6ce" meeting="false" start="2023-03-22" duration="1" complete="0" thirdDate="2023-03-06" thirdDate-constraint="0" expand="true"/>
             <task id="15" name="Correction" color="#ff0000" meeting="false" start="2023-03-23" duration="2" complete="0" thirdDate="2023-03-06" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="18" name="Sprint 2 : Statistique de visite" color="#8cb6ce" meeting="false" start="2023-03-27" duration="20" complete="0" thirdDate="2023-02-22" thirdDate-constraint="0" expand="false">
+        <task id="18" name="Sprint 2 : Statistique de visite" color="#8cb6ce" meeting="false" start="2023-03-27" duration="20" complete="0" thirdDate="2023-02-22" thirdDate-constraint="0" expand="true">
             <task id="19" name="Graphe de nombre de visite avec filtre" color="#8cb6ce" meeting="false" start="2023-03-27" duration="4" complete="0" thirdDate="2023-02-22" thirdDate-constraint="0" expand="true"/>
             <task id="20" name="Tableau de nombre de visite avec filtre" color="#8cb6ce" meeting="false" start="2023-04-03" duration="4" complete="0" thirdDate="2023-03-02" thirdDate-constraint="0" expand="true"/>
             <task id="21" name="Détails des visites (suivie de distance de localisation) avec filtre et pagination" color="#8cb6ce" meeting="false" start="2023-04-07" duration="4" complete="0" thirdDate="2023-03-06" thirdDate-constraint="0" expand="true"/>
@@ -99,7 +99,7 @@
             <task id="25" name="Test en ligne" color="#8cb6ce" meeting="false" start="2023-04-21" duration="1" complete="0" thirdDate="2023-03-22" thirdDate-constraint="0" expand="true"/>
             <task id="26" name="Correction" color="#8cb6ce" meeting="false" start="2023-04-24" duration="2" complete="0" thirdDate="2023-03-23" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="28" name="Sprint 3 : Statistiques de commandes" color="#8cb6ce" meeting="false" start="2023-04-26" duration="26" complete="0" thirdDate="2023-03-27" thirdDate-constraint="0" expand="false">
+        <task id="28" name="Sprint 3 : Statistiques de commandes" color="#8cb6ce" meeting="false" start="2023-04-26" duration="26" complete="0" thirdDate="2023-03-27" thirdDate-constraint="0" expand="true">
             <task id="29" name="Détails des Articles commandées" color="#8cb6ce" meeting="false" start="2023-04-26" duration="2" complete="0" thirdDate="2023-03-27" thirdDate-constraint="0" expand="true"/>
             <task id="32" name="Cadencier avec filtre" color="#8cb6ce" meeting="false" start="2023-04-28" duration="3" complete="0" thirdDate="2023-04-12" thirdDate-constraint="0" expand="true"/>
             <task id="33" name="Graphe Cadencier" color="#8cb6ce" meeting="false" start="2023-05-04" duration="3" complete="0" thirdDate="2023-04-14" thirdDate-constraint="0" expand="true"/>
@@ -113,7 +113,7 @@
             <task id="42" name="Test en ligne" color="#8cb6ce" meeting="false" start="2023-06-01" duration="1" complete="0" thirdDate="2023-05-22" thirdDate-constraint="0" expand="true"/>
             <task id="41" name="Correction" color="#8cb6ce" meeting="false" start="2023-06-02" duration="2" complete="0" thirdDate="2023-05-22" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="43" name="Sprint 4 : Stock/Objectif/DN" color="#8cb6ce" meeting="false" start="2023-06-06" duration="15" complete="0" thirdDate="2023-04-24" thirdDate-constraint="0" expand="false">
+        <task id="43" name="Sprint 4 : Stock/Objectif/DN" color="#8cb6ce" meeting="false" start="2023-06-06" duration="15" complete="0" thirdDate="2023-04-24" thirdDate-constraint="0" expand="true">
             <task id="44" name="Situation de stock avec filtre" color="#8cb6ce" meeting="false" start="2023-06-06" duration="2" complete="0" thirdDate="2023-04-24" thirdDate-constraint="0" expand="true"/>
             <task id="45" name="Objectif de vente avec filtre" color="#8cb6ce" meeting="false" start="2023-06-07" duration="2" complete="0" thirdDate="2023-04-26" thirdDate-constraint="0" expand="true"/>
             <task id="46" name="Objectif de vente par produit avec filtre" color="#8cb6ce" meeting="false" start="2023-06-09" duration="2" complete="0" thirdDate="2023-05-02" thirdDate-constraint="0" expand="true"/>
@@ -124,16 +124,16 @@
             <task id="51" name="Test en ligne" color="#8cb6ce" meeting="false" start="2023-06-22" duration="1" complete="0" thirdDate="2023-05-22" thirdDate-constraint="0" expand="true"/>
             <task id="52" name="Correction" color="#8cb6ce" meeting="false" start="2023-06-23" duration="2" complete="0" thirdDate="2023-05-24" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="56" name="Sprint 5 : Preparation" color="#8cb6ce" meeting="false" start="2023-06-28" duration="5" complete="0" thirdDate="2023-06-02" thirdDate-constraint="0" expand="false">
+        <task id="56" name="Sprint 5 : Preparation" color="#8cb6ce" meeting="false" start="2023-06-28" duration="5" complete="0" thirdDate="2023-06-02" thirdDate-constraint="0" expand="true">
             <task id="65" name="Conception de base de donnee" color="#8cb6ce" meeting="false" start="2023-06-28" duration="5" complete="0" thirdDate="2023-06-22" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="66" name="Sprint 6 : Gestion des utilisateurs" color="#8cb6ce" meeting="false" start="2023-06-07" duration="24" complete="0" thirdDate="2023-06-22" thirdDate-constraint="0" expand="false">
+        <task id="66" name="Sprint 6 : Gestion des utilisateurs" color="#8cb6ce" meeting="false" start="2023-07-05" duration="5" complete="0" thirdDate="2023-06-22" thirdDate-constraint="0" expand="true">
             <task id="67" name="Authentification" color="#8cb6ce" meeting="false" start="2023-07-05" duration="2" complete="0" thirdDate="2023-06-22" thirdDate-constraint="0" expand="true"/>
-            <task id="68" name="Insertion utilisateur" color="#8cb6ce" meeting="false" start="2023-06-07" duration="1" complete="0" thirdDate="2023-06-22" thirdDate-constraint="0" expand="true"/>
+            <task id="68" name="Insertion utilisateur" color="#8cb6ce" meeting="false" start="2023-07-07" duration="1" complete="0" thirdDate="2023-06-22" thirdDate-constraint="0" expand="true"/>
             <task id="69" name="test locale / test en ligne" color="#8cb6ce" meeting="false" start="2023-07-10" duration="1" complete="0" thirdDate="2023-06-22" thirdDate-constraint="0" expand="true"/>
             <task id="70" name="Correction" color="#8cb6ce" meeting="false" start="2023-07-11" duration="1" complete="0" thirdDate="2023-06-22" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="71" name="Sprint 7 : Gestion de Stock/Concurrence" color="#8cb6ce" meeting="false" start="2023-07-12" duration="17" complete="0" thirdDate="2023-06-07" thirdDate-constraint="0" expand="false">
+        <task id="71" name="Sprint 7 : Gestion de Stock/Concurrence" color="#8cb6ce" meeting="false" start="2023-07-12" duration="17" complete="0" thirdDate="2023-06-07" thirdDate-constraint="0" expand="true">
             <task id="72" name="Gestion du fournisseur concurrent" color="#8cb6ce" meeting="false" start="2023-07-12" duration="2" complete="0" thirdDate="2023-07-05" thirdDate-constraint="0" expand="true"/>
             <task id="73" name="Gestion des produits avec des produits concurrents" color="#8cb6ce" meeting="false" start="2023-07-14" duration="4" complete="0" thirdDate="2023-06-07" thirdDate-constraint="0" expand="true"/>
             <task id="74" name="Gestion des valeurs de Stock par produit par distributeur/par point de vente" color="#8cb6ce" meeting="false" start="2023-07-20" duration="5" complete="0" thirdDate="2023-07-10" thirdDate-constraint="0" expand="true"/>
@@ -142,7 +142,7 @@
             <task id="77" name="Test en ligne" color="#8cb6ce" meeting="false" start="2023-08-01" duration="1" complete="0" thirdDate="2023-07-11" thirdDate-constraint="0" expand="true"/>
             <task id="78" name="Correction" color="#8cb6ce" meeting="false" start="2023-08-02" duration="2" complete="0" thirdDate="2023-07-11" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="79" name="Sprint 8 : Résultat et Analyse" color="#8cb6ce" meeting="false" start="2023-08-04" duration="18" complete="0" thirdDate="2023-07-12" thirdDate-constraint="0" expand="false">
+        <task id="79" name="Sprint 8 : Résultat et Analyse" color="#8cb6ce" meeting="false" start="2023-08-04" duration="18" complete="0" thirdDate="2023-07-12" thirdDate-constraint="0" expand="true">
             <task id="80" name="Infos sur les fournisseurs concurrent par CA par produit/par point de vente" color="#8cb6ce" meeting="false" start="2023-08-04" duration="4" complete="0" thirdDate="2023-07-12" thirdDate-constraint="0" expand="true"/>
             <task id="81" name="Top 10 des produits SOFIA avec filtre" color="#8cb6ce" meeting="false" start="2023-08-10" duration="4" complete="0" thirdDate="2023-07-14" thirdDate-constraint="0" expand="true"/>
             <task id="82" name="Top 10 des produits concurrents avec filtre" color="#8cb6ce" meeting="false" start="2023-08-17" duration="4" complete="0" thirdDate="2023-07-20" thirdDate-constraint="0" expand="true"/>
